@@ -1,0 +1,16 @@
+
+devices: 
+  LEAF1: 
+    connections: 
+      cli: 
+        ip: "131.226.217.151"
+        protocol: ssh
+    credentials: 
+      default: 
+        password: Admin_1234!
+        username: admin
+    os: nxos
+    type: nxos
+testbed: 
+  name: Try_testbed
+
